@@ -6,5 +6,5 @@ Subsetted out just the mean data.
 Grouped by Activities and Subjects.
 Ran summarise_all on the grouped data set to compute the mean of the mean data.  
 
-
+For more information on data, units used see features_info.txt from the UCI HAR data set. 
 
