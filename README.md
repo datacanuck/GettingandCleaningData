@@ -3,20 +3,13 @@ Course Project for JHU's Getting and Cleaning Data course.
 
 Run the run_analysis.R script.  It uses a number of the input data sets from the UCI HAR data set. These input data filenames are hardcoded into the script.
 
-For training and test data it uses:
-train/X_train.txt
-test/X_test.txt
+For training and test data it uses:  train/X_train.txt, test/X_test.txt
 
-For features data it uses:
-features.txt
+For features data it uses:  features.txt
 
-For the activities data it uses:
-train/y_train.txt
-test/y_test.txt
+For the activities data it uses:  train/y_train.txt, test/y_test.txt
 
-For the subjects data it uses:
-train/subject_train.txt
-test/subject_test.txt
+For the subjects data it uses:  train/subject_train.txt, test/subject_test.txt
 
 How the script works:
 
