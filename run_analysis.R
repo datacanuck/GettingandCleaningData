@@ -60,12 +60,12 @@ run_analysis <- function(){
     #mergedtotal <- mergedtotal[,-(34:66)]
     
     #Clean data set
-    mergedtotal_training <- mergedtotal[1:7352,]
-    mergedtotal_test <- mergedtotal[7353:10299,]
+    #mergedtotal_training <- mergedtotal[1:7352,]
+    #mergedtotal_test <- mergedtotal[7353:10299,]
     
-    remergedtotal <- merge(mergedtotal_training, mergedtotal_test, by = c("Subjects","Activities"), all = TRUE)
+    #remergedtotal <- merge(mergedtotal_training, mergedtotal_test, by = c("Subjects","Activities"), all = TRUE)
     
-    by_Activities_Subjects <- group_by(remergedtotal, Activities, Subjects)
+    by_Activities_Subjects <- group_by(mergedtotal, Activities, Subjects)
     mysummary <- summarise_all(by_Activities_Subjects, mean, rm.na = TRUE)
     
     #Write out the data frame to a file
