@@ -57,7 +57,7 @@ run_analysis <- function(){
     
     
     mergedtotal <- mergedmeansstds
-    mergedtotal <- mergedtotal[,-(34:66)]
+    #mergedtotal <- mergedtotal[,-(34:66)]
     
     #Clean data set
     mergedtotal_training <- mergedtotal[1:7352,]
