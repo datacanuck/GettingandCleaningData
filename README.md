@@ -1,7 +1,9 @@
 # GettingandCleaningData
 Course Project for JHU's Getting and Cleaning Data course.
 
-Run the run_analysis.R script.  It uses a number of the input data sets from the UCI HAR data set. These input data filenames are hardcoded into the script.
+Run the run_analysis.R script.  It uses a number of the input data sets from the UCI HAR data set. Download the data from:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+These input data filenames are hardcoded into the script.
 
 For training and test data it uses:  train/X_train.txt, test/X_test.txt
 
